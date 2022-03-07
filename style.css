@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+}
+
+h3, h4, h5{
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+.gameArea{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#diceNum1{
+    position: absolute;
+    left: 125px;
+    bottom: 240px;
+}
+
+.newGameContainer, .player1Area, .playAgainContainer{
+    position: absolute;
+    text-align: center;
+}
+
+#newGameButton{
+    position: relative;
+    left: 825px;
+}
+
+#playAgain{
+    position: relative;
+    top: 380px;
+    left: 810px;
+}
+
+.player1Area{
+    left: 700px;
+    top: 50px;
+}
+
+.player1Stuff{
+    position: absolute;
+    bottom: 80px;
+    left: 115px;
+}
+
+#player1Scoreboard{
+    font-size: 30px;
+}
